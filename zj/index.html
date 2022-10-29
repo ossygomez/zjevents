@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ZJ EVENTS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="index">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <section>
+        <div class="hero">
+            <div class="hero-text">
+                <img id="zj_logo" src="https://zjevents.com//assets/images/logo.png" alt="ZJ Events logo">
+                <h1>WELCOME TO ZJ FORMS</h1>
+                <p class="mb-2">Here you can find useful links, metrics, forms, and more to come</p>
+
+                <!-- linkedin follow us-->
+                <!-- <div>
+                    <a class="text-white follow-us mt-5 mt-md-0"
+                        href="https://www.linkedin.com/company/zj-events-llc/mycompany/"
+                        style="text-decoration:none">Follow us <i class="fab fa-linkedin-in "></i></a>
+                </div> -->
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="main-links">
+            <div>
+                <h2>Alt Pro</h2>
+                <div class="link-lists">
+
+                </div>
+            </div>
+            <div>
+                <h2>BizCann</h2>
+                <div class="link-lists">
+
+                </div>
+            </div>
+            <div>
+                <h2>Expoverse</h2>
+                <div class="link-lists">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        h1 {
+            font-size: 5rem !important;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        h2 {
+            font-size: 4.5rem !important;
+            color: #173650;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Staatliches', display;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+        .hero {
+
+            background-image: url(https://altproexpo.com/wp-content/uploads/2022/08/Tampa-Florida-USA-Skyline.png);
+            /* background-image: url(https://zjevents.com/assets/images/CBDCARD01_124.png); */
+            min-height: 40em;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .hero:before,
+        .heronorm:before {
+            position: absolute;
+            background: #173650;
+            content: '';
+            width: 100%;
+            height: 100%;
+            opacity: 0.71;
+        }
+
+        .main-links {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+            grid-auto-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 1px 3rem;
+            padding: 5rem 10rem 2.5rem 10rem;
+            grid-template-areas: ". . .";
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .hero-text {
+
+
+
+            max-width: 70%;
+            text-align: center;
+            margin: 0 auto;
+            color: white;
+            opacity: 1;
+            position: relative;
+        }
+
+        .hero-text h1 {
+            color: white;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            width: 55%;
+            margin: 0 auto;
+        }
+
+        .hero .follow-us {
+            text-decoration: none;
+            font-size: 1.25rem;
+            font-weight: lighter;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hero i {
+            color: #173650;
+            background: white;
+            border-radius: 100%;
+            padding: 5px;
+            font-size: 0.70rem;
+            margin-left: 10px;
+        }
+
+        #zj_logo {
+            margin-bottom: 10px;
+            max-width: 170px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem !important;
+        }
+
+        #upcoming-shows {
+            background-image: url(https://zjevents.com/assets/images/CBDCARD01_124.png);
+            background-size: cover;
+            height: 105vh;
+        }
+
+        #upcoming-shows::before {
+            background: rgb(255, 255, 255);
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 105vh;
+            opacity: 0.94;
+        }
+
+        .nshows-text {
+            margin-left: 200px;
+            position: relative;
+            max-width: 750px;
+            padding: 30px 0;
+        }
+
+        .shows-grid {
+            margin: -60px auto 140px auto;
+            background: transparent;
+            position: relative;
+            max-width: 90vw;
+        }
+
+        .shows-grid .row {
+            justify-content: space-evenly;
+            display: inline-flex;
+            margin: 2em 0;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .shows-grid_image {
+            max-width: 90%;
+            min-height: 15vh;
+            max-height: 15vh;
+            margin: 0 auto 2em auto;
+        }
+
+        .shows-buttons {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .shows-buttons a {
+            text-decoration: none;
+            background: linear-gradient(#173650, #195567);
+            color: white;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+
+        .button-exhibit {
+            padding: 20px 50px;
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .about-us {
+            max-width: 1550px;
+            margin: 0 auto;
+        }
+
+        .py-5 {
+            padding-top: 3rem !important;
+            padding-bottom: 3rem !important;
+        }
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs-gutter-y) * -1);
+            margin-right: calc(var(--bs-gutter-x) * -.5);
+            margin-left: calc(var(--bs-gutter-x) * -.5);
+        }
+
+        .about-us h2,
+        .about-us p {
+            color: #173650;
+        }
+
+        .about-us p {
+            font-size: 1.25rem;
+        }
+
+        @media (min-width: 992px) {
+            .col-lg-4 {
+                flex: 0 0 auto;
+                width: 33.33333333%;
+            }
+        }
+
+
+
+
+
+        /* mobile styles */
+
+        @media (min-width: 1200px) {
+
+            .h1,
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .col-lg-3 {
+                flex: 0 0 auto;
+                width: 25%;
+            }
+
+
+        }
+    </style>
+
+</body>
+
+</html>
